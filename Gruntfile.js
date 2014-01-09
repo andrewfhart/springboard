@@ -185,8 +185,8 @@ module.exports = function(grunt) {
       js: {
         files: 'src/js/**/*.js',
         tasks: [
-          'jshint',
-          'copy:js'
+          'copy:js',
+          'jshint'
         ],
         options: {
           interrupt: true
