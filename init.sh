@@ -7,8 +7,11 @@
 # See the README.md file for additional information.
 #
 
-GRUNT_PLUGINS="contrib-uglify contrib-clean bower-task bower-organiser connect-rewrite connect-proxy contrib-connect contrib-watch contrib-copy contrib-jshint contrib-watch"
+GRUNT_PLUGINS="contrib-uglify contrib-clean bower-task bower-organiser contrib-less connect-rewrite connect-proxy contrib-connect contrib-watch contrib-copy contrib-jshint contrib-watch"
 GRUNT_EXTRA_PLUGINS="connect-modrewrite"
+
+echo "Installing Grunt Command Line Interface"
+npm install -g grunt-cli
 
 echo "Initializing NPM package file:"
 npm init
