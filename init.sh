@@ -19,12 +19,13 @@ npm install --save-dev grunt
 echo "Installing Grunt plugins:"
 for PLUGIN in $GRUNT_PLUGINS
 do
-    npm install --save-dev $PLUGIN
+    npm install --save-dev "grunt-${PLUGIN}"
 done
 
 for PLUGIN in $GRUNT_EXTRA_PLUGINS
 do
     npm install --save-dev $PLUGIN
+done
 
 echo "Done."
 
