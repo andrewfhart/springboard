@@ -14,19 +14,19 @@ Instructions
 First, copy the latest files to a directory on your machine:
 
 ```
-$ wget https://github.com/andrewfhart/springboard/archive/master.zip && unzip master.zip && rm master.zip
+wget https://github.com/andrewfhart/springboard/archive/master.zip && unzip master.zip && rm master.zip
 ```
 
-Next, run the initialization script, and provide any requested information specific to your application:
+You will most likely wish to rename the generated `springboard-master` directory to something more appropriate for your needs. Then, `cd` into the directory and run the initialization script, providing your own application-specific answers for the requested information:
 
 ```
-$ ./init.sh
+./init.sh
 ```
 
 Finally, start your application server using the Grunt command line interface:
 
 ```
-$ grunt server
+grunt server
 ```
 
 Visit your application at: http://localhost:3333/
